@@ -1,0 +1,15 @@
+# Ignore everything by default
+*
+
+# Allow directories to be traversed
+!*/
+
+# Allow only these file types
+!*.tex
+!*.png
+!*.pdf
+!*.py
+!*.R
+!*.sh
+!*.bat
+!.gitignore
