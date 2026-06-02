@@ -12,6 +12,7 @@
 \usepackage{hyperref}
 \usepackage{natbib}
 \usepackage{graphicx}
+\graphicspath{{figures/}}
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{microtype}
@@ -73,6 +74,33 @@
 \label{sec:results}
 
 [Results go here.]
+
+\subsection{Time Series of Violent Events}
+
+Figures~\ref{fig:ts_gaza} and~\ref{fig:ts_westbank} display the daily count of violent events
+in the Gaza Strip and the West Bank, respectively, from January 2010 to May 2024.
+The solid line shows the 7-day centred moving average, which smooths out day-to-day noise
+and highlights medium-term trends in conflict intensity.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{ts_gaza}
+    \caption{Daily violent events in the Gaza Strip (bars) and 7-day moving average (line),
+             January 2010 -- April 2024. Violent events include battles,
+             explosions/remote violence, violence against civilians, and riots.
+             Source: ACLED.}
+    \label{fig:ts_gaza}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{ts_westbank}
+    \caption{Daily violent events in the West Bank (bars) and 7-day moving average (line),
+             January 2010 -- April 2024. Violent events include battles,
+             explosions/remote violence, violence against civilians, and riots.
+             Source: ACLED.}
+    \label{fig:ts_westbank}
+\end{figure}
 
 \section{Discussion}
 \label{sec:discussion}
